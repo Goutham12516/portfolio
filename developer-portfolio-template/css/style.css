@@ -130,6 +130,7 @@ a:focus {
 }
 
 
+
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
@@ -1591,3 +1592,10 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+.move-img {
+    position: relative;   /* important to allow movement */
+    top: 20px;           /* move image up */
+    left: 90px;           /* move image right */
+}
+
